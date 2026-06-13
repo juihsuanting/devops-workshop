@@ -3,7 +3,7 @@ name = "linear-algebra-lib"
 version = "0.1.0"
 description = "A simple linear algebra library for educational purposes and test practice"
 authors = ["namwoam <namwoam@gmail.com>"]
-packages = [{include = "lab1"}]
+packages = [{include = "lab1", from = ".."}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
